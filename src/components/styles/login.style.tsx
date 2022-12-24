@@ -1,10 +1,9 @@
 import React from "react"
 
 import { StyleSheet } from "react-native"
-
-export const Colors: any = {
+ const Colors: any = {
   solidDark: "#262626",
-  solidPink: "3CA0B4A",
+  solidPink: "#CA0B4A",
 }
 const LoginStyle = StyleSheet.create({
   container: {
@@ -15,7 +14,27 @@ const LoginStyle = StyleSheet.create({
   header: {
     width: "100%",
     height: "auto",
-  },
+    padding:3, 
+    //flex : 1 , 
+    flexDirection : "row" , 
+   // justifyContent : "center" , 
+   alignContent :"center" , 
+    backgroundColor: Colors.solidPink, 
+    paddingTop : 40 , 
+    paddingLeft : 15 , 
+    paddingBottom : 10
+  },  
+  Setting : {
+    right : 10 , 
+    position : "absolute" , 
+    top : 40
+  } ,
+
+  Title : {
+    fontSize : 17,
+    color: "white" , 
+    fontWeight : "bold"
+  }
 })
 
 export default LoginStyle
