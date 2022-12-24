@@ -18,7 +18,9 @@ const LoginUI = () => {
       </View>
 
       <View style={LoginStyle.From}>
-
+        <View>
+          <Logo Width="30" Height="30" />
+        </View>
       </View>
     </View>
   )

@@ -22,7 +22,7 @@ const LoginStyle = StyleSheet.create({
     backgroundColor: Colors.solidPink, 
     paddingTop : 40 , 
     paddingLeft : 15 , 
-    paddingBottom : 10
+    paddingBottom : 15
   },  
   Setting : {
     right : 10 , 
@@ -34,6 +34,12 @@ const LoginStyle = StyleSheet.create({
     fontSize : 17,
     color: "white" , 
     fontWeight : "bold"
+  }
+  , From : {
+    width :"100%" , 
+    height : "auto" , 
+    textAlign : "center" , 
+
   }
 })
 
